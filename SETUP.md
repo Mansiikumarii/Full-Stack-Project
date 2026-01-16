@@ -15,8 +15,7 @@
 1. Go to https://www.mongodb.com/cloud/atlas
 2. Create a free account
 3. Create a cluster
-4. Get connection string: `mongodb+srv://username:password@cluster.mongodb.net/productr`
-5. Use this in your `.env` file
+4. Use this in your `.env` file
 
 ### Step 2: Backend Installation
 
