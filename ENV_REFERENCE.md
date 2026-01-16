@@ -32,10 +32,8 @@ JWT_SECRET=your_jwt_secret_key_here_change_in_production
 - **Production:** Optimized, minimal logging
 
 #### `MONGODB_URI`
-- **Default:** mongodb://localhost:27017/productr
 - **Purpose:** MongoDB connection string
 - **Local:** `mongodb://localhost:27017/productr`
-- **Atlas:** `mongodb+srv://username:password@cluster.mongodb.net/productr?retryWrites=true&w=majority`
 - **Note:** Replace `productr` with your database name
 
 #### `JWT_SECRET`
@@ -156,11 +154,6 @@ REACT_APP_API_URL=http://localhost:5000/api
 ### Local MongoDB
 ```
 mongodb://localhost:27017/productr
-```
-
-### MongoDB Atlas Cloud
-```
-mongodb+srv://username:password@cluster0.mongodb.net/productr?retryWrites=true&w=majority
 ```
 
 ### Create Atlas Connection String
